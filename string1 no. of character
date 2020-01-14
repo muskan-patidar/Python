@@ -1,0 +1,8 @@
+string = "World is beautiful,isnt it?"
+substring = "W"
+
+count = string.count(substring)
+
+
+print("The count is:", count)
+ 
