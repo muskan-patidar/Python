@@ -1,0 +1,7 @@
+sal=int(input("Enter basic salary"))
+da=int(input("Enter DA percent"))
+ta=int(input("Enter TA percent"))
+da=da*sal//100
+ta=ta*sal//100
+gross=sal+da+ta
+print("Gross salary",gross)
