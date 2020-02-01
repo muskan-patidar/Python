@@ -1,0 +1,11 @@
+num=int(input("Enter any no."))
+temp=num
+sum=0
+while num>0
+       rem=num%10
+       sum+=(rem*rem*rem)
+       num=num//10
+if temp==sum:
+           print("Armstrong No.")
+else:
+    print("Not a Armstrong No.") 
