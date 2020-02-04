@@ -1,0 +1,18 @@
+def add(x,y):
+    z=x+y
+    print("Sum is",z)
+def sub(x,y):
+    z=x-y
+    print("Subtraction is",z)
+
+def mul(x,y):
+    z=x*y
+    print("Multiplication is",z)
+def div(x,y):
+    z=x//y
+    print("Division is",z)
+add(40,50)
+sub(20,10)
+mul(20,3)
+div(40,2)
+    
